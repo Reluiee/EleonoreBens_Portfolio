@@ -22,8 +22,10 @@ body, html {
 .card {
     z-index: 1;
     position: relative;
-    width: 70%;                  
+    max-width: 60%;
+    width: 80%;                  
     height: 75%;
+    max-height: 60%;
 
     backdrop-filter: blur(2px);         /* Der Hintergrund wird hinter der Box weichgezeichnet (Glas-Effekt) */
     -webkit-backdrop-filter: blur(2px); /* Für Safari */
