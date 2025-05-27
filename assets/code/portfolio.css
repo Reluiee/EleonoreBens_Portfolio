@@ -9,7 +9,7 @@ body, html {
     display: flex;                     /* Flexbox aktivieren */
     justify-content: center;          /* Horizontal zentrieren */
     align-items: center;              /* Vertikal zentrieren */
-    
+    font-weight: 500;
 }
 
 #canvas1 {
@@ -93,6 +93,7 @@ nav {
     font-size: 1.3rem;
     margin: 1rem 0;
     justify-content: space-between;
+    font-weight: bold;
 }
 
 .right {
@@ -110,21 +111,22 @@ nav a {
 nav a:hover {
     text-decoration-line: underline;
     text-decoration-color: rgba(74, 74, 74, 0.7);
-    text-decoration-thickness: 1px; /* Dünner Unterstrich */
+    text-decoration-thickness: 2px; /* Dünner Unterstrich */
 }
 
 #location {
     text-decoration-line: underline;
     text-underline-offset: 4px;
     text-decoration-color: rgba(74, 74, 74, 0.7);
-    text-decoration-thickness: 1px; /* Dünner Unterstrich */
+    text-decoration-thickness: 2px; /* Dünner Unterstrich */
 }
 
 /*Seiten*/
 img.logo {
     height: 3rem;
     width: 3rem;
-    opacity: .5;
+    opacity: .7;
+    color: black;
 }
 
 .data {
@@ -166,11 +168,14 @@ img.logo {
     margin: 1rem;
 }
 
+.introduction {
+    max-width: 30%;
+}
 
 
 .introduction img {
-    height: 80%; 
-    width: auto;
+    height: auto; 
+    width: 100%;
     border-radius: 30px;
     opacity: .9;
     object-fit: cover;
