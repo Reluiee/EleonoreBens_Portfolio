@@ -113,7 +113,7 @@ nav a:hover {
     text-decoration-thickness: 1px; /* Dünner Unterstrich */
 }
 
-#aboutMe {
+#location {
     text-decoration-line: underline;
     text-underline-offset: 4px;
     text-decoration-color: rgba(74, 74, 74, 0.7);
